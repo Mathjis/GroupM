@@ -1,0 +1,7 @@
+name: GroupM
+main: me.Mathjis.GroupM.Main
+version: 1.0
+commands:
+   groupm:
+      description: Basic command.
+      usage: /<command>
