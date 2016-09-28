@@ -17,7 +17,7 @@ public class eventPlayerJoin implements Listener{
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event){
 		Player player = event.getPlayer();
-		String message = plugin.getConfig().getString("Welcome-Message").replace("%p", player.getName());
+		String message = plugin.getConfig().getString("Welcome-Message").replace("{player}", player.getName());
 		player.sendMessage(message);
 	}
 }

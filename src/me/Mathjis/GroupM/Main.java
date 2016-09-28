@@ -15,7 +15,7 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		// CONFIG
-		config.addDefault("Welcome-Message", "Welcome %p");
+		config.addDefault("Welcome-Message", "Welcome {player}");
 		config.options().copyDefaults(true);
 		saveConfig();
 		// END CONFIG
